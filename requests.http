@@ -1,0 +1,12 @@
+### Obter todos os Todos
+GET http://localhost:5280
+
+### Criar um novo Todo
+POST http://localhost:5280
+Content-Type: application/json
+
+{
+  "title": "Estudar .NET",
+  "done": false,
+  "createdAt": "2025-06-27T00:00:00"
+}
